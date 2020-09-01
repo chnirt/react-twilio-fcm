@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Learn more
+
+Config firebase: https://stackoverflow.com/questions/40612026/firebase-fcm-react-project-issue-firebase-messaging-sw-js-wrong-type
