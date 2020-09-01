@@ -26,16 +26,18 @@ const credentials = require('./credentials.json')
 // 	console.log('No set!')
 // }
 
-var firebaseConfig = {
-	apiKey: 'AIzaSyAmiJ0Y0isaXy-JoXOLlnMT6OY-SprGFgI',
-	authDomain: 'twilio-push-notification-ca82c.firebaseapp.com',
-	databaseURL: 'https://twilio-push-notification-ca82c.firebaseio.com',
-	projectId: 'twilio-push-notification-ca82c',
-	storageBucket: 'twilio-push-notification-ca82c.appspot.com',
-	messagingSenderId: '582529668280',
-	appId: '1:582529668280:web:5af52fb49880f9dbd3504d',
-	measurementId: 'G-WJHJC149B6',
-}
+// var firebaseConfig = {
+// 	apiKey: 'AIzaSyAmiJ0Y0isaXy-JoXOLlnMT6OY-SprGFgI',
+// 	authDomain: 'twilio-push-notification-ca82c.firebaseapp.com',
+// 	databaseURL: 'https://twilio-push-notification-ca82c.firebaseio.com',
+// 	projectId: 'twilio-push-notification-ca82c',
+// 	storageBucket: 'twilio-push-notification-ca82c.appspot.com',
+// 	messagingSenderId: '582529668280',
+// 	appId: '1:582529668280:web:5af52fb49880f9dbd3504d',
+// 	measurementId: 'G-WJHJC149B6',
+// }
+
+var firebaseConfig = {}
 
 if (!firebase.apps.length) {
 	firebase.initializeApp(firebaseConfig)
